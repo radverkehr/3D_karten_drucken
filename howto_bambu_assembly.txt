@@ -1,0 +1,68 @@
+Vorgehen:
+
+Netz vorbereiten und einfärben:
+	- Netz-STL aufrufen
+	- Platzieren: x=125 und y=142 (um sicherzustellen, dass später Sockel und Netz exakt übereinander sind)
+	- in Objekte trennen
+	- alle Objekte in weiß
+	- Boden löschen
+	- nun die einzelnen "Radwege" einfärben* (-> Objekte einzeln aufwählen -> Zahl (Filamentnummer) eingeben)
+		- ggf. Segmente zerschneiden
+	- Rand grau einfärben
+	- Objekte mergen
+	- ggf. sinnvoll Rand und Kegel bis zuletzt drin lassen
+	- 3mf-File abspeichern
+	
+
+
+Sockel einfügen
+	- rechtklick auf Netz -> Teil hinzufügen (Sockeldatei auswählen)
+	(- Platzieren: x=125 und y=142 ; z= 6+4+1,5 (legende) / 2 = 5,75)
+	- Netz dann hochsetzen (z)
+		- 1,47/2 + 6 ~ 6,7 (achtung zu hoch)   -> -0,1 -0,1 - 0,4 -0,1 also am Ende -> 5,9
+	- ggf. in Assembly Ansicht einfärben
+	
+		
+
+
+
+
+
+Druckeinstellungen:
+
+Sockel:
+	200x200x10 inkl Schrift (Custom <Ort> und TH Logo, <Jahr>, OpenStreetMap)
+	-> Filling von Sockel runtersetzen von 15% auf 7% heruntersetzen
+		- > bei 15% ist sockel 150g
+		- > bei  7% ist sockel 118g
+		- Füllmuster -> Bienenwabe
+			- > bei 7% mit Bienenwabe 126g
+			- > bei 7% (7mm) mit Bienenwabe 111g
+	Alles:
+	-> Ironing/Glätten
+		-> "Alle Oberflächen" Geradlinig
+		- > bei 7% (7mm) mit Bienenwabe und geglättet 115g
+		
+	????
+	(- ggf. Fussverhältnis für Boden (graues generic)/alle Filamente hochstellen(?) -> auf 1)
+	
+
+
+
+
+
+
+
+
+*Coloring:
+Es stehen 4 bzw. 8 Farben im AMS zur Verfügung.
+Orientierung an: https://tilda-geo.de/regionen/radinfra 
+weiß 			-> für Gebäude und sonstige Straßen
+grau / marble 	-> für Boden
+blau 			-> Fahrradwege
+hellblau		-> Fußwege+Radfahrer frei; Verkehrberuhgter bereich;...
+
+Seperate eingezeichnete RVA 		-> RVA entspechend einfärben
+Auf Centerline eingezeichnete RVA 	-> Centerline einfärben (wünschswert wäre es wenn man die nur teilweise einfärben könnte.)
+											* Idee: ganz dünne Schicht weiß drüber? -> klappt für außenseite (Einfärben -> Ausfüllen -> Außenseite von Centerline auswählen), aber ungestetet!
+
